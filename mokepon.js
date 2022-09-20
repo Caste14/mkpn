@@ -4,28 +4,18 @@ function seleccionarMascotaJugador()
     let inputCpp = document.getElementById('Capipepo')
     let inputRg = document.getElementById('Ratigueya')
 
-    // if (inputHd.checked)
-    // {
-    //     alert("Seleccionaste a Hipodoge")
-      
-    // } else if (inputCpp.checked)
-    // {
-    //     alert("Seleccionaste a Capipepo")
-    // } else if (inputRg.checked)
-    // {
-    //     alert("Seleccionaste a Ratigueya")
-    // } else
-    // {
-    //     alert("Por favor, selecciona a un pesonaje")
-    // }
-
-    switch () {
-        case value:
-            
+    switch (ckecked = true) {
+        case inputHd.checked:
+            alert('Elegiste a Hipodoge🐺')
             break;
-    
+        case inputCpp.checked:
+            alert('Elegiste a Capipepo🐻')
+            break;
+        case inputRg.checked:
+            alert('Elegiste a Ratigueya🐭')
+            break;
         default:
-            alert("Por favor, selecciona a un personaje")
+            alert('Parece que no elegiste a ninguna mascota 🤷‍♂️, por favor, ¡elije una!')
             break;
     }
 }
