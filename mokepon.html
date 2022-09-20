@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mokepon</title>
+    <script src="mokepon.js"></script>
+
 </head>
 <body>
-    <h1>MOKEPON! </h1>
+    <h1>MOKEPON! 🔥🌊🏜</h1>
     <section id="seleccionar-mascota">
         <h2>
             Elige a tu mascota:
@@ -21,19 +24,19 @@
         <label for="Ratigueya">Ratigueya</label>
         <input type="radio" name="mascota" id="Ratigueya">
       
-        <button>seleccionar</button>
+        <button id="boton-mascota">seleccionar</button>
 
     </section>
 
     <section id="seleccionar-ataque">
         <h2>Elige tu ataque:</h2>
-        <P>Tu mascota tiene <span>3</span> vidas</P>
-        <p>La mascota del enemigo tiene <span>3</span> vidas</p>
+        <P>Tu mascota <span id="mascota-jugador"></span> tiene <span>3</span> vidas</P>
+        <p>La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span>3</span> vidas</p>
     
         <p>
-            <button>Fuego</button>
-            <button>Agua</button>
-            <button>Tierra</button>
+            <button id="boton-fuego">Fuego</button>
+            <button id="boton-agua">Agua</button>
+            <button id="boton-tierra">Tierra</button>
         </p>
     </section>
 
@@ -42,7 +45,7 @@
     </section>
 
     <section id="reiniciar">
-        <button>Reiniciar</button>
+        <button id="Reinicio">Reiniciar</button>
     </section>
 </body>
 </html>
